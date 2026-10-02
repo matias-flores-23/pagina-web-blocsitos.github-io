@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #f5efe6;
+    color: #263238;
+}
+.encabezado {
+    background-color: #355070;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 5px solid #f6bd60;
+}
+.encabezado h1 {
+    color: white;
+    margin:15px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+}
+.menu a {
+    margin:10px;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+}
+.menu a:hover {
+    background-color: #f6bd60;
+    color: #355070;
+}
+.inicio {
+    width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #fffaf2;
+    border: 3px solid #6d597a;
+    box-shadow: 5px 5px 10px #999999;
+    text-align: center;
+}
+.inicio h2 {
+    color: #355070;
+}
+.inicio p::first-letter {
+    font-size: 25px;
+}
+.boton {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #6d597a;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #6d597a;
+}
+.boton:hover {
+    background-color: #f6bd60;
+    color: #355070;
+}
+.producto {
+    width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #e9f5f2;
+    border: 3px solid #355070;
+    text-align: center;
+}
+.producto h2 {
+    color: #355070;
+}
+.tarjeta {
+    width: 710px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: white;
+    border: 3px solid #f6bd60;
+    box-shadow: 5px 5px 10px #999999;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta__imagen {
+    width: 260px;
+    margin: 30px;
+    display: block;
+}
+.tarjeta__informacion {
+    width: 360px;
+    text-align: left;
+}
+.tarjeta__informacion h3 {
+    color: #6d597a;
+}
+.precio {
+    font-weight: bold;
+    color: #355070;
+}
+.nosotros {
+    width: 800px;
+    margin: 40px auto;
+    padding: 35px;
+    background-color: #fffaf2;
+    border: 3px solid #6d597a;
+    box-shadow: 5px 5px 10px #999999;
+    text-align: center;
+}
+.nosotros h2 {
+    color: #6d597a;
+}
+.nosotros p::first-letter {
+    font-size: 25px;
+}
+.contacto {
+    width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #e9f5f2;
+    border: 3px solid #355070;
+    box-shadow: 5px 5px 10px #999999;
+    text-align: center;
+}
+.contacto h2 {
+    color: #355070;
+}
